@@ -10,6 +10,9 @@ void main() {
           title: Text("I Am Rich"),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Image(
+          image: NetworkImage("https://www.gia.edu/images/polished-ruby.png"),
+        ),
       ),
     ),
   );
